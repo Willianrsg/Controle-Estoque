@@ -1,8 +1,16 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
+
 
 
 function App() {
   return (
-    <h1>Ola mundo</h1>
+    <>
+      <Header/>
+      <br></br>
+      <Footer/>
+    </>
   )
 }
 
